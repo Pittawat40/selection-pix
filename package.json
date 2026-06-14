@@ -1,0 +1,17 @@
+{
+  "name": "panoramic-studio",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/image": "^2.0.0",
+    "@nuxtjs/tailwindcss": "^6.12.0",
+    "nuxt": "^3.11.0"
+  }
+}
