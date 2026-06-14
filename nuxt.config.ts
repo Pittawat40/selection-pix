@@ -14,6 +14,9 @@ export default defineNuxtConfig({
     cssPath: "~/assets/css/main.css",
     configPath: "tailwind.config.ts",
   },
+  image: {
+    provider: "none",
+  },
 
   app: {
     head: {
